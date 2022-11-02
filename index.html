@@ -5,69 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge Project: Website Design System</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@400;700&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>My Website Style Guide</h1>
     <section>
         <h2>Colors</h2>
-            <div class"color one">
+            <div class="color one">
                 <p>Black Coral</p>
                 <p>#495867</p>
             </div>
-            <div class"color two">
+            <div class="color two">
                 <p>Blue Yonder</p>
                 <p>#577399</p>
             </div>
-            <div class"color three">
+            <div class="color three">
                 <p>Beau Blue</p>
                 <p>#BDD5EA</p>
             </div>
-            <div class"color four">
+            <div class="color four">
                 <p>Granny Smith Apple</p>
                 <p>#9EE493</p>
             </div>
-            <div class"color five">
+            <div class="color five">
                 <p>Mulberry</p>
                 <p>#B95F89</p>
             </div>
     </section>
     <section>
         <h2>Fonts</h2>
-        <h3 class="font1">Schrift 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p class="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="fonts">
+            <h3 class="font1">Ubuntu</h3>
+            <p class="font1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="font1 bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="font1 italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    
+        <div class="fonts">
+            <h3 class="font2">Raleway</h3>
+            <p class="font2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="font2 bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="font2 italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
 
-        <h3 class="font2">Schrift 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p class="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-        <h3 class="font3">Schrift 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p class="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="fonts">
+            <h3 class="font3">Roboto Slab</h3>
+            <p class="font3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="font3 bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="font3 italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
 
     </section>
     <section>
         <h2>Text Styles</h2>
-        <h1 class="text-style">H1: Main page heading</h1>
-        <ul>
-            <li>Font-weight: </li>
-            <li>Font-size: </li>
-            <li>Font-family: </li>
+        <h1 class="text-style font3">H1: Main page heading</h1>
+        <ul class="font1">
+            <li>Font-weight: 400 (regular) </li>
+            <li>Font-size: 1.8em</li>
+            <li>Font-family: Ubuntu</li>
         </ul>
-        <h2 class="text-style">H": Subheading</h2>
-        <ul>
-            <li>Font-weight: </li>
-            <li>Font-size: </li>
-            <li>Font-family: </li>
+        <h2 class="text-style font2">H2: Subheading</h2>
+        <ul class="font1">
+            <li>Font-weight: 400 (regular)</li>
+            <li>Font-size: regular</li>
+            <li>Font-family: Raleway</li>
         </ul>
-        <p class="text-style">P: Paragraph Text</p>
-        <ul>
-            <li>Font-weight: </li>
-            <li>Font-size: </li>
-            <li>Font-family: </li>
+        <p class="text-style font1">P: Paragraph Text</p>
+        <ul class="font1">
+            <li>Font-weight: 400 (regular)</li>
+            <li>Font-size: regular</li>
+            <li>Font-family: Roboto Slab</li>
         </ul>
     </section>
 </body>

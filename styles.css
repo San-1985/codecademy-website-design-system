@@ -1,0 +1,78 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    width: 80vw;
+    margin: 0 auto;
+}
+.color {
+    display: inline-block;
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.one {
+    background-color: #495867;
+    color: white;
+}
+
+.two {
+    background-color: #577399;
+    color: white;
+}
+
+.three {
+    background-color: #BDD5EA;
+}
+
+.four {
+    background-color: #9EE493;
+}
+
+.five {
+    background-color: #B95F89;
+    color: white;
+}
+
+section {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font1 {
+    font-family: Ubuntu;
+}
+
+.font2 {
+    font-family: Raleway;
+}
+
+.font3 {
+    font-family: "Roboto Slab";
+}
+
+h1.font3 {
+    font-size: 1.8em;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.fonts {
+    display: inline-block;
+    width: 40%;
+    margin-right: 5%;
+}
